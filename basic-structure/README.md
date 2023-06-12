@@ -2,7 +2,7 @@
 
 ### Doctype
 
-All HTML documents must start with a <$!DOCTYPE$> declaration. \
+All HTML documents must start with a <!DOCTYPE> declaration. \
 The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect. \
 In HTML5, the <!DOCTYPE> declaration is simple:
 
@@ -10,12 +10,12 @@ In HTML5, the <!DOCTYPE> declaration is simple:
 <!DOCTYPE html>
 ```
 
-> Tip: The <$!DOCTYPE$> declaration is NOT case sensitive.
+> Tip: The <!DOCTYPE> declaration is NOT case sensitive.
 
 ### html
 
-The <$html$> tag represents the root of an HTML document. \
-The <$html$> tag is the container for all other HTML elements (except for the <$!DOCTYPE$> tag).
+The <html> tag represents the root of an HTML document. \
+The <html> tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).
 
 ```html
 <!DOCTYPE html>
@@ -24,11 +24,11 @@ The <$html$> tag is the container for all other HTML elements (except for the <$
 </html>
 ```
 
-> Note: You should always include the lang attribute inside the <$html$> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+> Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
 
 ### head
 
-The <$head$> element is a container for metadata (data about data) and is placed inside <$html$> and beside <$body$> \
+The <head> element is a container for metadata (data about data) and is placed inside <html> and beside <body> \
 Metadata is data about the HTML document. Metadata is not displayed. \
 Metadata typically define the document title, character set, styles, scripts, and other meta information.
 
@@ -43,8 +43,8 @@ Metadata typically define the document title, character set, styles, scripts, an
 
 ### body
 
-The <$body$> tag defines the document's body. \
-The <$body$> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.\
+The <body> tag defines the document's body. \
+The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.\
 
 ```html
 <html>
@@ -54,4 +54,4 @@ The <$body$> element contains all the contents of an HTML document, such as head
 </html>
 ```
 
-> Note: There can only be one <$body$> element in an HTML document.
+> Note: There can only be one <body> element in an HTML document.

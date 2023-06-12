@@ -2,20 +2,20 @@
 
 ### Doctype
 
-All HTML documents must start with a <!DOCTYPE> declaration. \
+All HTML documents must start with a &lt;!DOCTYPE&gt; declaration. \
 The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect. \
-In HTML5, the <!DOCTYPE> declaration is simple:
+In HTML5, the &lt;!DOCTYPE&gt; declaration is simple:
 
 ```html
 <!DOCTYPE html>
 ```
 
-> Tip: The <!DOCTYPE> declaration is NOT case sensitive.
+> Tip: The &lt;!DOCTYPE&gt; declaration is NOT case sensitive.
 
 ### html
 
-The <html> tag represents the root of an HTML document. \
-The <html> tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).
+The &lt;html&gt; tag represents the root of an HTML document. \
+The &lt;html&gt; tag is the container for all other HTML elements (except for the &lt;!DOCTYPE&gt; tag).
 
 ```html
 <!DOCTYPE html>
@@ -24,11 +24,11 @@ The <html> tag is the container for all other HTML elements (except for the <!DO
 </html>
 ```
 
-> Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
+> Note: You should always include the lang attribute inside the &lt;html&gt; tag, to declare the language of the Web page. This is meant to assist search engines and browsers.
 
 ### head
 
-The <head> element is a container for metadata (data about data) and is placed inside <html> and beside <body> \
+The &lt;head&gt; element is a container for metadata (data about data) and is placed inside &lt;html&gt; and beside &lt;body&gt; \
 Metadata is data about the HTML document. Metadata is not displayed. \
 Metadata typically define the document title, character set, styles, scripts, and other meta information.
 

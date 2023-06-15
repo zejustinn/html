@@ -28,7 +28,22 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 ## Índice
 
 <details>
-  <summary>Estrutura básica</summary>
+  <summary><a href="#doctype">Conceitos básicos</a></summary>
+
+&emsp;&emsp;...Editores\
+&emsp;&emsp;...Tags\
+&emsp;&emsp;...Elementos\
+&emsp;&emsp;...Aninhamento\
+&emsp;&emsp;...Atributos\
+&emsp;&emsp;...Semântica\
+&emsp;&emsp;...Espaço ocupado pelos elementos\
+&emsp;&emsp;...Entidades HTML\
+&emsp;&emsp;...Conjunto de caracteres
+
+</details>
+
+<details>
+  <summary><a href="#doctype">Estrutura básica</a></summary>
 
 &emsp;&emsp;[doctype](#doctype) \
 &emsp;&emsp;[html](#html) \
@@ -36,6 +51,22 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 &emsp;&emsp;[body](#body)
 
 </details>
+
+<details>
+  <summary><a href="#doctype">Tags, suas utilidades e exemplos</a></summary>
+
+&emsp;&emsp;...em progresso
+
+</details>
+
+<details>
+  <summary><a href="#doctype">Curiosidades</a></summary>
+
+&emsp;&emsp;...em progresso
+
+</details>
+
+<a href="#referências">Referências</a>
 
 ### doctype
 
@@ -102,3 +133,5 @@ O elemento &lt;body&gt; contém todos conteúdo mostrado na página, como títul
 ## Referências
 
 - [w3schools](https://www.w3schools.com/html/default.asp)
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>

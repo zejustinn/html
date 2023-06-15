@@ -2,6 +2,9 @@
 
 O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para descrever a estrutura das páginas através de uma série de elementos, que são definidos por tags, e que visa informar ao navegador como mostrar o conteúdo da página.
 
+> ATENÇÃO: O HTML é uma tecnologia que básica para a criação de páginas de websites, porém para a criação de um site completo é necessário o utilizar juntamente com outras tecnologias como CSS e JavaScript 🤓 \
+> Mas tenha calma "Não dá para ter o resultado sem viver todo o processo. Não apresse as coisas, viva um passo de cada vez." 🧘
+
 > Arquivo: index.html
 
 ```html
@@ -24,10 +27,15 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 
 ## Índice
 
-- [doctype](#doctype)
-- [html](#html)
-- [head](#head)
-- [body](#body)
+<details>
+  <summary>Estrutura básica</summary>
+
+&emsp;&emsp;[doctype](#doctype) \
+&emsp;&emsp;[html](#html) \
+&emsp;&emsp;[head](#head) \
+&emsp;&emsp;[body](#body)
+
+</details>
 
 ### doctype
 

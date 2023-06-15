@@ -28,7 +28,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 ## Índice
 
 <details>
-  <summary><a href="#doctype">Conceitos básicos</a></summary>
+  <summary>Conceitos básicos</summary>
 
 &emsp;&emsp;...Editores\
 &emsp;&emsp;...Tags\
@@ -43,7 +43,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 </details>
 
 <details>
-  <summary><a href="#doctype">Estrutura básica</a></summary>
+  <summary>Estrutura básica</summary>
 
 &emsp;&emsp;[doctype](#doctype) \
 &emsp;&emsp;[html](#html) \
@@ -53,14 +53,14 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 </details>
 
 <details>
-  <summary><a href="#doctype">Tags, suas utilidades e exemplos</a></summary>
+  <summary>Tags, suas utilidades e exemplos</summary>
 
 &emsp;&emsp;...em progresso
 
 </details>
 
 <details>
-  <summary><a href="#doctype">Curiosidades</a></summary>
+  <summary>Curiosidades</summary>
 
 &emsp;&emsp;...em progresso
 

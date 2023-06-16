@@ -28,7 +28,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 ## Índice
 
 <details>
-  <summary>Conceitos básicos</summary>
+  <summary><a href="#conceitos-básicos">Conceitos básicos</a></summary>
 
 &emsp;&emsp;[Editores](#editores)\
 &emsp;&emsp;...Tags\
@@ -69,6 +69,10 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 <a href="#referências">Referências</a>
 
 ## Conceitos básicos
+
+Os conceitos básicos é a seção de conceitos/informações que _EU_ considero fundamentais para o devido entendimento da tecnologia e que fazem com o que desenvolvedor tenha a consciencia de o que é o que e do real motivo da real necessidade de cada informação
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 
 ### Editores
 

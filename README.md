@@ -77,7 +77,10 @@ Os conceitos básicos é a seção de conceitos/informações que _EU_ considero
 ### Editores
 
 Para escrever arquivos HTML qualquer editor de texto serve, desde algo mais robusto como uma [IDE(Integrated development environment/Ambiente de desenvolvimento integrado)](https://aws.amazon.com/pt/what-is/ide/#:~:text=Um%20ambiente%20de%20desenvolvimento%20integrado,uma%20aplica%C3%A7%C3%A3o%20f%C3%A1cil%20de%20usar.) até algo mais simples como o Bloco de notas do seu computador. \
-Como o objetivo é entender o HTML aprendo a o utilizar, iremos utilizar o bloco de notas para ajudar a fixar o conhecimento através da escrita dos elementos sem nenhum auxílio. \
+Como o objetivo é entender o HTML aprendo a o utilizar, iremos utilizar o bloco de notas para ajudar a fixar o conhecimento através da escrita dos elementos sem nenhum auxílio.
+
+> ATENÇÃO: A escrita do código HTML pode ser feita com qualquer editor de texto, porém para o código ser interpretado ele deve ser aberto com algum navegor
+
 Passo a passo:
 
 - Abra o menu iniciar

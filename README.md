@@ -81,20 +81,20 @@ Passo a passo:
 - Aperte "enter"
 - Escreva algum código HTML
 - Selecione salvar o arquivo
-  - Aperte em "Arquivo" e então em "Salvar" OU aperte "ctrl + s"
+  - Aperte em "Arquivo" e então em "Salvar" OU aperte "ctrl + s"(segurar a tecla "ctrl" e apertar a tecla "s")
 - Escolha um nome para seu arquivo HTML e adicione ".html" no fim dele. Exemplo: "teste.html" - "teste" foi o nome escolhido e ".html" adicionado no fim
 - Selecione o tipo de arquivo como "Todos os arquivos"
 - Salve
-- clique com o botão direito do mouse e selecione "Abrir com " > seu navegador de preferência
+- clique com o botão direito do mouse e selecione "Abrir com" > seu navegador de preferência
 
 Passo a passo com imagens:
 
-![Menu iniciar](./assets/bloco-de-notas-menu-iniciar.jpg) \
-![Pesquisar "Bloco de notas"](./assets/bloco-de-notas-menu-iniciar-pesquisar.jpg) \
-![Abrir opção "Arquivo"](./assets/bloco-de-notas.jpg) \
-![Selecionar "Salvar"](./assets/bloco-de-notas-salvar.jpg) \
-![Nomear, selecionar tipo e salvar](./assets/bloco-de-notas-salvar-opcoes.jpg) \
-![Abrir arquivo com o navegador ](./assets/blobo-de-notas-abrir-com-navegador.jpg) \
+![Menu iniciar](./assets/bloco-de-notas-menu-iniciar.jpg)
+![Pesquisar "Bloco de notas"](./assets/bloco-de-notas-menu-iniciar-pesquisar.jpg)
+![Abrir opção "Arquivo"](./assets/bloco-de-notas.jpg)
+![Selecionar "Salvar"](./assets/bloco-de-notas-salvar.jpg)
+![Nomear, selecionar tipo e salvar](./assets/bloco-de-notas-salvar-opcoes.jpg)
+![Abrir arquivo com o navegador ](./assets/bloco-de-notas-abrir-com-navegador.jpg)
 ![Resultado](./assets/bloco-de-notas-resultado.jpg)
 
 > Nota: O passo a passo foi criado em um sistema operacional Windows 11 em outros sistemas operacionais os passos podem varias um pouco porém é sempre muito semelhante

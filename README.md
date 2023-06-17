@@ -70,7 +70,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 
 ## Conceitos básicos
 
-Os conceitos básicos é a seção de conceitos/informações que _EU_ considero fundamentais para o devido entendimento da tecnologia e que fazem com o que desenvolvedor tenha a consciencia de o que é o que e do real motivo da real necessidade de cada informação
+Os conceitos básicos é a seção de conceitos/informações que _EU_ considero fundamentais para o devido entendimento da tecnologia e que fazem com o que desenvolvedor tenha a consciencia de o que é o que e da real necessidade de cada informação
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 

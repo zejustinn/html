@@ -76,35 +76,7 @@ Os conceitos básicos é a seção de conceitos/informações que _EU_ considero
 
 ### Editores
 
-Para escrever arquivos HTML qualquer editor de texto serve, desde algo mais robusto como uma [IDE(Integrated development environment/Ambiente de desenvolvimento integrado)](https://aws.amazon.com/pt/what-is/ide/#:~:text=Um%20ambiente%20de%20desenvolvimento%20integrado,uma%20aplica%C3%A7%C3%A3o%20f%C3%A1cil%20de%20usar.) até algo mais simples como o Bloco de notas do seu computador. \
-Como o objetivo é entender o HTML aprendo a o utilizar, iremos utilizar o bloco de notas para ajudar a fixar o conhecimento através da escrita dos elementos sem nenhum auxílio.
-
-> ATENÇÃO: A escrita do código HTML pode ser feita com qualquer editor de texto, porém para o código ser interpretado ele deve ser aberto com algum navegor
-
-Passo a passo:
-
-- Abra o menu iniciar
-- Digite "Bloco de notas"
-- Aperte "enter"
-- Escreva algum código HTML
-- Selecione salvar o arquivo
-  - Aperte em "Arquivo" e então em "Salvar" OU aperte "ctrl + s"(segurar a tecla "ctrl" e apertar a tecla "s")
-- Escolha um nome para seu arquivo HTML e adicione ".html" no fim dele. Exemplo: "teste.html" - "teste" foi o nome escolhido e ".html" adicionado no fim
-- Selecione o tipo de arquivo como "Todos os arquivos"
-- Salve
-- clique com o botão direito do mouse e selecione "Abrir com" > seu navegador de preferência
-
-Passo a passo com imagens:
-
-![Menu iniciar](./assets/bloco-de-notas-menu-iniciar.jpg)
-![Pesquisar "Bloco de notas"](./assets/bloco-de-notas-menu-iniciar-pesquisar.jpg)
-![Abrir opção "Arquivo"](./assets/bloco-de-notas.jpg)
-![Selecionar "Salvar"](./assets/bloco-de-notas-salvar.jpg)
-![Nomear, selecionar tipo e salvar](./assets/bloco-de-notas-salvar-opcoes.jpg)
-![Abrir arquivo com o navegador ](./assets/bloco-de-notas-abrir-com-navegador.jpg)
-![Resultado](./assets/bloco-de-notas-resultado.jpg)
-
-> Nota: O passo a passo foi criado em um sistema operacional Windows 11 em outros sistemas operacionais os passos podem varias um pouco porém é sempre muito semelhante
+Para escrever arquivos HTML qualquer editor de texto serve, desde algo mais simples como o bloco de notas até algo mais robusto como uma [IDE(Integrated development environment/Ambiente de desenvolvimento integrado)](https://aws.amazon.com/pt/what-is/ide/#:~:text=Um%20ambiente%20de%20desenvolvimento%20integrado,uma%20aplica%C3%A7%C3%A3o%20f%C3%A1cil%20de%20usar.) que auxilia o desenvolvedor de diversas maneiras diferentes
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 
@@ -175,5 +147,6 @@ O elemento &lt;body&gt; contém todos conteúdo mostrado na página, como títul
 ## Referências
 
 - [w3schools](https://www.w3schools.com/html/default.asp)
+- [betrybe](https://blog.betrybe.com/desenvolvimento-web/comandos-e-tags-html/)
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>

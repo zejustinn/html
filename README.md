@@ -2,7 +2,7 @@
 
 O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para descrever a estrutura das páginas através de uma série de elementos, que são definidos por tags, e que visa informar ao navegador como mostrar o conteúdo da página.
 
-> ATENÇÃO: O HTML é uma tecnologia que básica para a criação de páginas de websites, porém para a criação de um site completo é necessário o utilizar juntamente com outras tecnologias como CSS e JavaScript 🤓 \
+> Atenção: O HTML é uma tecnologia que básica para a criação de páginas de websites, porém para a criação de um site completo é necessário o utilizar juntamente com outras tecnologias como CSS e JavaScript 🤓 \
 > Mas tenha calma "Não dá para ter o resultado sem viver todo o processo. Não apresse as coisas, viva um passo de cada vez." 🧘
 
 > Arquivo: index.html
@@ -31,7 +31,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
   <summary><a href="#conceitos-básicos">Conceitos básicos</a></summary>
 
 &emsp;&emsp;[Editores](#editores)\
-&emsp;&emsp;...Tags\
+&emsp;&emsp;[Tags](#tags)\
 &emsp;&emsp;...Elementos\
 &emsp;&emsp;...Aninhamento\
 &emsp;&emsp;...Atributos\
@@ -77,6 +77,30 @@ Os conceitos básicos é a seção de conceitos/informações que _EU_ considero
 ### Editores
 
 Para escrever arquivos HTML qualquer editor de texto serve, desde algo mais simples como o bloco de notas até algo mais robusto como uma [IDE(Integrated development environment/Ambiente de desenvolvimento integrado)](https://aws.amazon.com/pt/what-is/ide/#:~:text=Um%20ambiente%20de%20desenvolvimento%20integrado,uma%20aplica%C3%A7%C3%A3o%20f%C3%A1cil%20de%20usar.) que auxilia o desenvolvedor de diversas maneiras diferentes
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
+
+### Tags
+
+As tag funcionam como etiquetas que descrevem como o conteúdo deve ser interpretado pelo navegador. As tags possuem duas formas:
+
+- Com fechamento: Nesse formato ela funciona como um container e é sempre utilizada em pares, no qual a primeira tag é a de abertura a segunda tag é a de fechamento e o conteúdo do qual ela descreve se encontra entre elas
+
+```html
+<p>Conteúdo</p>
+```
+
+> Nota: A tag de abertura nesse exemplo é &lt;p&gt; e a tag de fechamento é &lt;/p&gt;. A tag de fechamento sempre será igual a tag de abertura porém com / nela
+
+- Sem fechamento: Nesse caso a tag não funciona como um container possuindo um conteúdo. Ela tem a finalidade de ser o próprio conteúdo e descrever a si mesma
+
+```html
+<img href="./somefile.jpg" />
+```
+
+> Nota: Não é necessário o / no final de tags sem fechamento. Porém muitos desenvolvedores utilizam como boa prática
+
+> Atenção: As tags não fazem diferenciação entre maiúsculas e minúsculas, ou seja, a tag &lt;P&gt; e &lt;p&gt; significam a mesma coisa
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 

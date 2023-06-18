@@ -129,30 +129,37 @@ A estrutura de um arquivo HTML é repleta de Tags, porém esta Tags muitas delas
 
 Um elemento HTML é um conceito um pouco abstrato, porém simples, mas mesmo assim deve ser entendido com cuidado. Os elementos HTML também possuem duas formas e tem relação direta com as tags:
 
-- Elemento simples: É definido por suas Tags(com fechamento) e tudo entre elas, ou seja o elemento em si É a tag de abrtura, o conteúdo e a tag de fechamento
+- Elemento simples: É definido por suas Tags(com fechamento) e TUDO entre elas, ou seja o elemento em si é a tag de abertura, o conteúdo e a tag de fechamento
 
 ```html
 <!-- Exemplo de elemento simples -->
 <p>Conteúdo</p>
 ```
 
-> Nota: &lt;p&gt;Conteúdo&lt;/p&gt; é um elemento
-
 ```html
-<!-- Outro exemplo de elemento simples -->
+<!-- Outro exemplo de elementos simples porém aninhados -->
 <body>
   <h1>Título</h1>
   <p>Parágrafo</p>
 </body>
 ```
 
-> Nota: &lt;body&gt;...&lt;/body&gt; é um elemento que possue mais dois elementos dentro &lt;h1&gt;Título&lt;/h1&gt; e &lt;p&gt;Parágrafo&lt;/p&gt;
+> Nota: "&lt;body&gt;...&lt;/body&gt;" é um elemento que possui mais dois elementos dentro "&lt;h1&gt;Título&lt;/h1&gt;" e "&lt;p&gt;Parágrafo&lt;/p&gt;"
 
 - Elemento vazio: É o elemento definido por uma tag sem fechamento da qual a tag tem a finalidade de ser o próprio conteúdo
 
 ```html
 <!-- Exemplo de elemento vazio -->
 <img href="./somefile.jpg" />
+```
+
+```html
+<!-- Outro exemplo de elementos simples porém aninhados com um elemento vazio entre eles -->
+<body>
+  <h1>Título</h1>
+  <br />
+  <p>Parágrafo</p>
+</body>
 ```
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>

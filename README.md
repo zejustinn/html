@@ -32,7 +32,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 
 &emsp;&emsp;[Editores](#editores)\
 &emsp;&emsp;[Tags](#tags)\
-&emsp;&emsp;...Aninhamento\
+&emsp;&emsp;[Aninhamento](#aninhamento)\
 &emsp;&emsp;[Elementos](#elementos)\
 &emsp;&emsp;...Atributos\
 &emsp;&emsp;...Semântica\
@@ -101,6 +101,27 @@ As tag funcionam como etiquetas que descrevem como o conteúdo deve ser interpre
 > Nota: Não é necessário o / no final de tags sem fechamento. Porém muitos desenvolvedores utilizam como boa prática
 
 > Atenção: As tags não fazem diferenciação entre maiúsculas e minúsculas, ou seja, a tag &lt;P&gt; e &lt;p&gt; significam a mesma coisa
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
+
+### Aninhamento
+
+A estrutura de um arquivo HTML é repleta de Tags, porém esta Tags muitas delas são aninhadas uma nas outras criando uma estrutura análoga a de uma árvore genealógica
+
+```html
+<html>
+  <body>
+    <h1>Título</h1>
+    <p>Parágrafo</p>
+  </body>
+</html>
+```
+
+- &lt;html&gt; é a tag raiz de da estrutura de exemplo acima
+- &lt;body&gt; é a tag filha de &lt;html&gt;
+- &lt;h1&gt; e &lt;p&gt; são tags irmãs, filhas de &lt;body&gt; e netas de &lt;html&gt;
+
+> Nota: Essa associação da estrutura do arquivo HTML com uma árvore genealógica é de extrema utilidade e o auxiliará no aprendizado de outras tecnologias também
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 

@@ -34,11 +34,12 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 &emsp;&emsp;[Tags](#tags)\
 &emsp;&emsp;[Aninhamento](#aninhamento)\
 &emsp;&emsp;[Elementos](#elementos)\
-&emsp;&emsp;...Atributos\
+&emsp;&emsp;[Atributos](#atributos)\
 &emsp;&emsp;...Semântica\
 &emsp;&emsp;...Espaço ocupado pelos elementos\
 &emsp;&emsp;...Entidades HTML\
-&emsp;&emsp;...Conjunto de caracteres
+&emsp;&emsp;...Conjunto de caracteres \
+&emsp;&emsp;...Navegadores
 
 </details>
 
@@ -60,7 +61,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 </details>
 
 <details>
-  <summary>Curiosidades</summary>
+  <summary>Conteúdo relevante</summary>
 
 &emsp;&emsp;...em progresso
 
@@ -161,6 +162,23 @@ Um elemento HTML é um conceito um pouco abstrato, porém simples, mas mesmo ass
   <p>Parágrafo</p>
 </body>
 ```
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
+
+### Atributos
+
+Os atributos são dados definidos por chave e valor(chave-do-atributo="valorDoAtributo") que vão juntamente com a tag de abertura e que tem o objetivo de adicionar mais informações ao elemento HTML. Qualquer elemento pode ter atributos, existem até mesmo alguns atributos que são globais(que podem ser utilizado em qualquer elemento)
+
+```html
+<img src="imagem.jpg" width="150" height="700" alt="Imagem de uma árvore" />
+```
+
+- A tag do elemento é a &lt;img&gt;
+- Ela possuí 3 atributos diferentes src, width e height
+- src é o atributo que define a imagem a ser renderizada
+- width é o atributo que define a largura que a imagem irá ter
+- height é o atributo que define a altura que a imagem irá ter
+- alt é o atributo que define a um texto alternativo que será utilizado caso a imagem não possa ser carregada por algum motivo
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 

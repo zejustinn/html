@@ -36,7 +36,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 &emsp;&emsp;[Elementos](#elementos)\
 &emsp;&emsp;[Atributos](#atributos)\
 &emsp;&emsp;[Semântica](#semântica)\
-&emsp;&emsp;...Espaço ocupado pelos elementos\
+&emsp;&emsp;[Espaço ocupado pelos elementos](#espaço-ocupado-pelos-elementos)\
 &emsp;&emsp;...Entidades HTML\
 &emsp;&emsp;...Conjunto de caracteres \
 &emsp;&emsp;...Navegadores
@@ -213,6 +213,37 @@ Dessa forma a sua página obterá todos os benefícios disponibilizado pela escr
 - Os mecanismos de pesquisa considerarão seu conteúdo como palavras-chave importantes para influenciar os rankings de pesquisa da página (veja [SEO](https://developer.mozilla.org/pt-BR/docs/Glossary/SEO))
 - Os leitores de tela podem usá-lo como uma placa de sinalização para ajudar usuários com deficiência visual a navegar em uma página
 - Encontrar blocos de código importantes é significativamente mais fácil do que procurar divs sem fim, com ou sem classes de semântica ou de nome espaçado.
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
+
+### Espaço ocupado pelos elementos
+
+Ao exibir um elemento o navegador já sabe o o tamanho que ele deve ocupar na tela. Esses tamanhos padrões irão depender do tipo de elemento que ele é, podendo variar entre duas opções: em bloco(block) ou em linha(inline)
+
+- Em bloco: Um elemento criado utilizando a tag &lt;p&gt; tem a exibição padrão definida como em bloco. O que significa que ele irá utilizar toda a largura da tela mesmo que não necessite
+
+```html
+<p>Primeiro parágrafo</p>
+<p>Segundo parágrafo</p>
+```
+
+> Resultado do arquivo acima aberto no navegador
+
+![Resultado do código interpretado pelo navegador](./assets/em-bloco.jpg)
+
+- Em linha: Um elemento criado utilizando a tag &lt;span&gt; tem a exibição padrão definida como em linha. O que significa que ele irá utilizar apenas a largura necessária para exibir o elemento
+
+> Nota: A linha em azul é o espaço "utilizado" pelo elemento. As linhas amarelas são margins, não é relevante no momento. Observe que mesmo o texto do parágrafo sendo curto, ainda assim o elemento ocupa toda a largura da tela
+
+```html
+<span>Primeiro parágrafo</span> <span>Segundo parágrafo</span>
+```
+
+> Resultado do arquivo acima aberto no navegador
+
+![Resultado do código interpretado pelo navegador](./assets/em-linha.jpg)
+
+> Nota: A linha em azul é o espaço "utilizado" pelo elemento.Observe que mesmo o espaço ocupado pelo elemento é apenas o necessário para exibir o texto
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 

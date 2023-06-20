@@ -35,7 +35,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 &emsp;&emsp;[Aninhamento](#aninhamento)\
 &emsp;&emsp;[Elementos](#elementos)\
 &emsp;&emsp;[Atributos](#atributos)\
-&emsp;&emsp;...Semântica\
+&emsp;&emsp;[Semântica](#semântica)\
 &emsp;&emsp;...Espaço ocupado pelos elementos\
 &emsp;&emsp;...Entidades HTML\
 &emsp;&emsp;...Conjunto de caracteres \
@@ -147,6 +147,8 @@ Um elemento HTML é um conceito um pouco abstrato, porém simples, mas mesmo ass
 
 > Nota: "&lt;body&gt;...&lt;/body&gt;" é um elemento que possui mais dois elementos dentro "&lt;h1&gt;Título&lt;/h1&gt;" e "&lt;p&gt;Parágrafo&lt;/p&gt;"
 
+> Nota: Elementos simples podem ser categorizados como semântico ou não semântico, mas isso será tratado mais a frente em [Semântica](#semântica)
+
 - Elemento vazio: É o elemento definido por uma tag sem fechamento da qual a tag tem a finalidade de ser o próprio conteúdo
 
 ```html
@@ -179,6 +181,38 @@ Os atributos são dados definidos por chave e valor(chave-do-atributo="valorDoAt
 - width é o atributo que define a largura que a imagem irá ter
 - height é o atributo que define a altura que a imagem irá ter
 - alt é o atributo que define a um texto alternativo que será utilizado caso a imagem não possa ser carregada por algum motivo
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
+
+### Semântica
+
+Os elementos simples do HTML podem ser categorizados como semântico e não semântico. O que siginifica de fato é que existem algumas tags que ao serem utilizadas para a a criação de um elemento acabam não dando o devido significado aquele elemento. Por exemplo:
+
+```html
+<div id="feed">
+  <div id="titulo">Titulo</div>
+  <div id="paragrafo">Parágrafo</div>
+</div>
+```
+
+No exemplo acima, ao invés de utilizar tags que melhor descrevem o elemento do qual ela faz parte. O desenvolvedor decidiu utilizar a tag &lt;div&gt; que não possue nenhum valor semântico, ou seja, uma tag não semântica. Porém o mesma situação poderia ter sido tratada de uma maneira diferente com a escolha de tags que fizessem o elemento ter um significado sem a necessidade do atributo "id"
+
+```html
+<article>
+  <h1>Titulo</h1>
+  <p>Parágrafo</p>
+</article>
+```
+
+- &lt;article&gt;: Tag utilizada para a criação de um conteúdo que independente, que possuí todos as referências dele mesmo.
+- &lt;h1&gt;: Tag utilizada para a criação de títulos onde pode variar de h1 até h6. h1 é para o título mais importante e h6 para o título menos importante
+- &lt;p&gt;: Tag utilizada para a criação de parágrafos
+
+Dessa forma a sua página obterá todos os benefícios disponibilizado pela escrita semântica do HTML como:
+
+- Os mecanismos de pesquisa considerarão seu conteúdo como palavras-chave importantes para influenciar os rankings de pesquisa da página (veja [SEO](https://developer.mozilla.org/pt-BR/docs/Glossary/SEO))
+- Os leitores de tela podem usá-lo como uma placa de sinalização para ajudar usuários com deficiência visual a navegar em uma página
+- Encontrar blocos de código importantes é significativamente mais fácil do que procurar divs sem fim, com ou sem classes de semântica ou de nome espaçado.
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 
@@ -250,5 +284,7 @@ O elemento &lt;body&gt; contém todos conteúdo mostrado na página, como títul
 
 - [w3schools](https://www.w3schools.com/html/default.asp)
 - [betrybe](https://blog.betrybe.com/desenvolvimento-web/comandos-e-tags-html/)
+- [amazon](https://aws.amazon.com/pt/what-is/ide/#:~:text=Um%20ambiente%20de%20desenvolvimento%20integrado,uma%20aplica%C3%A7%C3%A3o%20f%C3%A1cil%20de%20usar)
+- [MDN web docs](https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics)
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>

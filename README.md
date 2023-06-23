@@ -38,7 +38,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 &emsp;&emsp;[Semântica](#semântica)\
 &emsp;&emsp;[Espaço ocupado pelos elementos](#espaço-ocupado-pelos-elementos)\
 &emsp;&emsp;[Caracteres reservados](#caracteres-reservados)\
-&emsp;&emsp;...Conjunto de caracteres \
+&emsp;&emsp;[Conjunto de caracteres](#conjunto-de-caracteres) \
 &emsp;&emsp;...Navegadores
 
 </details>
@@ -260,6 +260,31 @@ Existem alguns caracteres que são reservados na linguagem, e para utilizar esse
 > Resultado do arquivo acima aberto no navegador
 
 ![Resultado do código do caractere reservado interpretado pelo navegador](./assets/caractere-reservado.jpg)
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
+
+## Conjunto de caracteres
+
+O conjunto de caracteres serve para informar ao navegador como interpretar os caracteres utilizados na página web. Atualmente o conjunto de caracteres padrão do HTML 5 é o UTF-8 que já suporta praticamente todos os caracteres do mundo, porém irei utilizar o conjunto antigo para fins de exemplificação
+
+```html
+<html>
+  <head>
+    <meta charset="ASCII" />
+  </head>
+  <body>
+    <p>
+      Caracteres com acentos não são suportado pelo conjunto de caracteres ASCII
+    </p>
+  </body>
+</html>
+```
+
+- A tag **meta** com o atributo **charset** define o conjunto utilizado
+
+> Resultado do arquivo acima aberto no navegador
+
+![Resultado do conjunto de caracteres ASCII interpretado pelo navegador](./assets/conjunto-de-caracteres.png)
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 

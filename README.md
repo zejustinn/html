@@ -37,7 +37,7 @@ O HTML é a linguagem de marcação padrão dos websites. Ele é utilizado para 
 &emsp;&emsp;[Atributos](#atributos)\
 &emsp;&emsp;[Semântica](#semântica)\
 &emsp;&emsp;[Espaço ocupado pelos elementos](#espaço-ocupado-pelos-elementos)\
-&emsp;&emsp;...Entidades HTML\
+&emsp;&emsp;[Caracteres reservados](#caracteres-reservados)\
 &emsp;&emsp;...Conjunto de caracteres \
 &emsp;&emsp;...Navegadores
 
@@ -244,6 +244,22 @@ Ao exibir um elemento o navegador já sabe o o tamanho que ele deve ocupar na te
 ![Resultado do código interpretado pelo navegador](./assets/em-linha.jpg)
 
 > Nota: A linha em azul é o espaço "utilizado" pelo elemento.Observe que mesmo o espaço ocupado pelo elemento é apenas o necessário para exibir o texto
+
+<p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
+
+## Caracteres reservados
+
+Existem alguns caracteres que são reservados na linguagem, e para utilizar esses caracteres deve-se utilizar o seu nome de entidades ou o seu número de entidade ao invés do caracter. Por exemplo:
+
+- O símbolo < é reservado da linguagem, ou seja para o escrever eu preciso escrever seu nome de entidade "lt"(less than) entre os símbolos & e ; desta forma: \&lt; ou escrever seu número de entidade "60" entre os símbolos &, # e ; desta forma \&#60; e então, ao ser intepretado pelo navegador será mostrado <
+
+```html
+<p>Para escrever um parágrafo utilizando o HTML utilize a tag &lt;p&gt;</p>
+```
+
+> Resultado do arquivo acima aberto no navegador
+
+![Resultado do código do caractere reservado interpretado pelo navegador](./assets/caractere-reservado.jpg)
 
 <p align="right"><a href="#índice">voltar ao índice ⬆️ </a></p>
 
